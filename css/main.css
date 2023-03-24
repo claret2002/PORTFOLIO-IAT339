@@ -1,0 +1,308 @@
+h1 {
+    font-family: plan_semibold;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: plan_semibold;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: plan_semibold;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: montreal;
+    font-size:.8rem;
+}
+
+
+
+/* Body */
+body {
+    background-color: #1C1C1C;
+}
+
+nav {
+    position:fixed;
+    top:-8px;
+    left: -85px;
+    padding-left:3%;
+    /* padding-top:3%; */
+    width: 150%;
+    background-color: #1C1C1C;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color:white;
+    border:1px solid white;
+}
+
+.logo{
+    margin-top:2rem;
+    color:white;
+}
+
+.wrapper{
+    margin-left:4rem;
+}
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size:1rem;
+    margin-top:8rem;
+    margin-bottom: -2.5rem;
+}
+
+.title2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size:1rem;
+    margin-top:11rem;
+    margin-bottom: -2.5rem;
+}
+
+.template-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    max-width:100%;
+    font-size:2rem;
+    margin-top:6rem;
+
+}
+
+.my-description {
+    color: white;
+    margin-top:3.5rem;
+    max-width:30%;
+    line-height: 1.1rem;
+}
+
+.paragraph-body, .paragraph-body2{
+    max-width:95%;
+    color:white;
+    line-height:3.8rem;
+}
+
+.me{
+    margin-top:3.5rem;
+}
+
+
+.email_btn,
+.resume_btn {
+    display: inline-block;
+    border-radius:12px;
+    border: .9px solid white;
+    height:3em;
+    width: 9em;
+    background-color: transparent;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.email_btn:hover,
+.resume_btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color:black;
+}
+
+.email, .resume{
+    color:white;
+}
+
+.dormify-img {
+    display: flex;
+    width: 34rem;
+    height: 25.875rem;
+}
+
+.tp-img {
+    display: flex;
+    width: 48rem;
+    height: auto;
+}
+
+
+/* .paragraph-body2{
+    margin-top:3rem;
+    margin-bottom: -2.5rem;
+} */
+
+.plantin{
+    color:white;
+}
+
+
+.dormify-header {
+    color:white;
+    margin-top: -32rem;
+    font-size: 2.5rem;
+}
+
+.dormify-log {
+    color: #707070;
+    font-size: 1.125rem;
+    margin-top: -2.2rem;
+}
+
+.dormify-para {
+    color:white;
+    font-size: 1rem;
+    max-width: 31.125rem;
+    line-height: 1.5rem;
+    margin-top: 4.6rem;
+}
+
+.about {
+    margin-left: .4rem;
+    margin-top: 9.6rem;
+    color: #707070;
+}
+
+
+.projects{
+    margin-top:4rem;
+}
+
+.project-tp{
+    margin-top:3rem;
+}
+
+
+.img-solu3 {
+    width:90%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top: 8rem;
+
+}
+
+.img-solu4 {
+    width:90%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top: 8rem;
+}
+
+.img-solu5 {
+    width:90%;
+    height: auto;
+    margin-left: -10rem;
+    margin-top: 8.5rem;
+}
+
+.img-solu6 {
+    width:90%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top: 25rem;
+}
+
+
+.content-heading {
+    font-size: 2.1rem;
+    color:white;
+    margin-top:-1rem;;
+}
+
+.content-heading1{
+    font-size: 2.1rem;
+    color:white;
+    margin-top:-1rem;;
+}
+
+.content-heading2{
+    font-size: 2.1rem;
+    color:white;
+    margin-top:7rem;;
+}
+
+.content-heading3{
+    font-size: 2.1rem;
+    color:white;
+    margin-top:7rem;;
+}
+
+.solu-3{
+    margin-top:-10rem;
+}
+
+.c22 {
+    font-family: montreal;
+    max-width:40%;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color:white;
+
+}
+
+.c1{
+    font-family: montreal;
+    max-width:43%;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color:white; 
+}
+
+.sub-solu3 {
+    color: #7A7A7A;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 14rem;
+}
+
+.supporting-text{
+    color:white;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 14rem;
+    max-width:60%;
+    margin-left:-10rem;
+    margin-top:2rem;
+}
+
+.tp-text{
+    color:white;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 14rem;
+    max-width:60%;
+    margin-left:-10rem;
+    margin-top:2rem;
+}
+
+.tp-heading, .dormify-heading{
+    color:white;
+}
+
+.project-dormify{
+    margin-top:3rem;
+}
+
+
+.tp-img1{
+    width:90%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top: 25rem;
+}
+
+.tp-img2{
+    width:90%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top:8rem;
+}
+
+.tp-img3{
+    width:90%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top:8rem;
+}
+
