@@ -1,0 +1,20 @@
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 95%;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.container, .works {
+    display: flex;
+    flex-direction: row;
+    /* gap: 1rem; */
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-wrap:wrap;
+    }
+}
