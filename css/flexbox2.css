@@ -6,15 +6,83 @@
     gap: 1rem;
 }
 
-.container, .works {
+.container,
+.works {
     display: flex;
     flex-direction: row;
     /* gap: 1rem; */
     /* flex-wrap: wrap; */
 }
 
-@media screen and (max-width: 600px){
-    .container{
-        flex-wrap:wrap;
+@media screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
     }
+}
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+
+.wrapper-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 82rem;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(22, 18fr);
+}
+
+
+.content,
+.insight,
+.framing {
+    grid-column: 8/21;
+}
+
+.content-heading1 {
+    grid-column: 8/20;
+}
+
+.subheading3 {
+    grid-column: 8/20;
+}
+
+.content-heading2,
+.final-result-heading {
+    grid-column: 8/20;
+}
+
+.content-heading3 {
+    grid-column: 8/20;
+}
+
+.reflection-paragraph {
+    grid-column: 8/18;
+}
+
+.reflection-paragraph-dormify {
+    grid-column: 8/18;
+}
+
+.solu-context {
+    display: grid;
+    grid-template-columns: repeat(22, 18fr);
+}
+
+.para-11 {
+    grid-column: 8/19;
+}
+
+
+.tp-process1,
+.tp-process2,
+.tp-process3 {
+    grid-column: 10/20;
 }

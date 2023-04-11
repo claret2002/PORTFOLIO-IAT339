@@ -15,7 +15,7 @@ h3 {
 
 p {
     font-family: montreal;
-    font-size:.8rem;
+    font-size: .8rem;
 }
 
 
@@ -34,22 +34,22 @@ p {
 .bio-heading {
     color: black;
     letter-spacing: -.18rem;
-    line-height:3.8rem;
+    line-height: 3.8rem;
     max-width: 95%;
     margin-top: 5rem;
 }
 
 nav {
-    position:fixed;
-    top:-8px;
+    position: fixed;
+    top: -8px;
     left: -29px;
-    padding-left:3%;
+    padding-left: 3%;
     width: 110%;
     background-color: white;
-    color:black;
+    color: black;
     font-family: plan_semibold;
     font-size: .9em;
-    border:1px solid black;
+    border: 1px solid black;
 
 }
 
@@ -60,28 +60,28 @@ body {
 
 .my-description {
     color: black;
-    margin-top:5rem;
-    max-width:28%;
+    margin-top: 5rem;
+    max-width: 28%;
     min-width: 28%;
     line-height: 1.1rem;
 }
 
-.scroll-to{
-    margin-top:18rem;
+.scroll-to {
+    margin-top: 18rem;
     max-width: 100%;
 }
 
-.me{
-    margin-top:-2.6rem;
-    margin-left:70rem;
+.me {
+    margin-top: -2.6rem;
+    margin-left: 70rem;
 }
 
 .email_btn,
 .resume_btn {
     display: inline-block;
-    border-radius:12px;
+    border-radius: 12px;
     border: .9px solid black;
-    height:3em;
+    height: 3em;
     width: 9em;
     background-color: transparent;
     color: black;
@@ -93,45 +93,49 @@ body {
 .resume_btn:hover {
     cursor: pointer;
     background-color: black;
-    color:white;
+    color: white;
 }
 
-.email, .resume{
-    color:black;
+.email,
+.resume {
+    color: black;
 }
 
 .dormify-img {
     display: flex;
-    width:93%;
-    height:auto;
+    width: 93%;
+    height: auto;
 }
 
 .tp-img {
     display: flex;
-    width:95%;
+    width: 95%;
     height: auto;
 }
 
-.container{
-    margin-top:6rem;
+.container {
+    margin-top: 6rem;
 }
 
 .project-dormify,
 .project-tp {
-    color:black;
+    color: black;
     margin-top: 2.1rem;
 }
 
 .dormify-logline,
-.tp-logline{
+.tp-logline {
     color: #707070;
     font-size: 1rem;
     /* margin-top:-2.5rem; */
 }
 
 .dormify-heading,
-.tp-heading{
+.tp-heading {
     margin-bottom: -.7rem;
     letter-spacing: -.05rem;
 }
 
+.citations {
+    margin-top: 7rem;
+}
