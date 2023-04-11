@@ -1,0 +1,46 @@
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 95%;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat(22, 18fr);
+}
+
+/* .imgsolu3, .img-solu4, .img-solu5, .img-solu6{
+    grid-column: 10/23;
+} */
+
+.content-heading {
+    grid-column: 8/20;
+}
+
+.tp-homepage,
+.tp-process2,
+.tp-process3 {
+    grid-column: 10/20;
+}
+
+.content {
+    grid-column: 4/20;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,743 @@
+/* font */
+
+h1 {
+    font-family: plan_semibold;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: plan_semibold;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: plan_semibold;
+    font-size: 1.6rem;
+}
+
+p {
+    font-family: montreal;
+    font-size: .8rem;
+}
+
+/* end of fonts */
+
+
+/* background color */
+body {
+    background-color: #1C1C1C;
+}
+
+/* end of background color */
+
+/* navigation */
+nav {
+    position: fixed;
+    top: -8px;
+    left: -85px;
+    padding-left: 3%;
+    width: 150%;
+    background-color: #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color: white;
+    border: 1px solid white;
+}
+
+/* end of navigation */
+
+/* logo */
+.logo-c {
+    margin-top: 2rem;
+    color: white;
+    font-family: plan_semibold;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+
+/*end of logo */
+
+/* pushing content to the left by 4rem  */
+.wrapper {
+    margin-left: 4rem;
+}
+
+.guide-color,
+.citation-color {
+    color: black;
+}
+
+citation-color {
+    font-size: 1.5rem;
+}
+
+/* Style guide */
+
+.solu-tp {
+    color: #7A7A7A;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 23rem;
+}
+
+
+.tp-primaryresearch,
+.tp-challenges {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.tp-reflection-title {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 7rem;
+}
+
+.tp-reflection-guide {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: -1rem;
+}
+
+.tp-para-1 {
+    font-family: montreal;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    max-width: 50%;
+    color: white;
+}
+
+.tp-subheading3 {
+    margin-top: 7rem;
+}
+
+.dormify-para-1 {
+    font-family: montreal;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color: white;
+    max-width: 55%;
+
+}
+
+.dormify-subheading3 {
+    margin-top: 6rem;
+}
+
+.dormify-solu-gif {
+    margin-top: 10rem;
+}
+
+/* end of style guide */
+
+
+/* project context */
+.about {
+    margin-left: .4rem;
+    margin-top: 9.6rem;
+    color: #707070;
+}
+
+/* title for both projects */
+.dormify-header,
+.touchpoint-header {
+    color: white;
+    margin-top: -32rem;
+    font-size: 2.5rem;
+}
+
+/* Kind of project */
+.dormify-log,
+.touchpoint-log {
+    color: #707070;
+    font-size: 1.125rem;
+    margin-top: -2.2rem;
+    max-width: 30%;
+}
+
+/* About the project */
+.dormify-para,
+.touchpoint-para {
+    color: white;
+    font-size: 1rem;
+    max-width: 35%;
+    min-width: 30%;
+    line-height: 1.5rem;
+    margin-top: 4.6rem;
+}
+
+/* project team members for Dormify */
+.project-members {
+    margin-top: 12rem;
+    color: white;
+    margin-left: 4rem;
+
+}
+
+/* Project team members for touchpoint */
+.tp-project-members {
+    margin-top: 24rem;
+    color: white;
+    margin-left: 4rem;
+}
+
+/* Project contribution */
+.project-contribution {
+    margin-top: 6rem;
+    color: white;
+    margin-left: 4rem;
+
+}
+
+.content-heading-tp {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+.para-1 {
+    font-family: montreal;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.tp-reflection,
+.dormify-reflection {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 22rem;
+}
+
+.reflection-paragraph {
+    font-family: montreal;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color: white;
+}
+
+/* Code for strictly for Touchpoint */
+.img-grouping {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    border: .8px solid white;
+}
+
+.caption {
+    font-size: .8rem;
+}
+
+.tp-img {
+    display: flex;
+    width: 95%;
+    height: auto;
+}
+
+.tp-hero,
+.dormify-hero {
+    width: 100%;
+    height: auto;
+}
+
+.final-result-heading {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 11rem;
+}
+
+.tp-process1 {
+    margin-top: -23rem;
+}
+
+.tp-img1 {
+    width: 90%;
+    height: auto;
+    margin-left: -8rem;
+    margin-top: 25rem;
+}
+
+.tp-img2 {
+    width: 90%;
+    height: auto;
+    margin-left: -8rem;
+    margin-top: 8rem;
+}
+
+.tp-img3 {
+    width: 90%;
+    height: auto;
+    margin-left: -8rem;
+    margin-top: 8rem;
+}
+
+.tp-text {
+    color: white;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 14rem;
+    max-width: 60%;
+    margin-left: -8rem;
+    margin-top: 2rem;
+}
+
+.subheading3 {
+    margin-top: -11rem;
+}
+
+/* code for end of stictly for touchpoint */
+
+
+/* code for strictly dormify */
+
+.para-2 {
+    font-size: 1rem;
+}
+
+.para-3 {
+    font-family: plan_light;
+    font-size: 1.125rem;
+    line-height: 1.37rem;
+}
+
+.para-4 {
+    font-size: .9rem;
+    font-family: plan_light;
+    margin-left: 18rem;
+    color: white;
+}
+
+.para-5 {
+    font-family: montreal;
+    font-size: 1rem;
+}
+
+.para-6 {
+    margin-top: -.2rem;
+    font-size: 1rem;
+    line-height: 1.37rem;
+}
+
+.para-7 {
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 2.6rem;
+    max-width: 34rem;
+}
+
+.content-heading-dormify {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+.para-8 {
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 2.6rem;
+    max-width: 34rem;
+}
+
+.para-9 {
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    max-width: 34rem;
+}
+
+.para-10 {
+    font-size: 1rem;
+    margin-top: -1.9rem;
+    padding-top: 2.6rem;
+    max-width: 34rem;
+    color: white;
+}
+
+.para-11 {
+    font-family: montreal;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color: black;
+    max-width: 75%;
+
+}
+
+.rect,
+.rect2,
+.rect3 {
+    border: 1px solid white;
+    border-radius: 10px;
+    fill: none;
+    width: 39rem;
+    max-width: 100%;
+    height: 10.5rem;
+}
+
+.rect2,
+.rect3 {
+    margin-top: 2.6rem;
+}
+
+.num-rect {
+    background-color: white;
+    width: 35px;
+    height: 24px;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    position: fixed;
+}
+
+.num {
+    color: black;
+    margin-left: .4rem;
+    position: fixed;
+    /* margin-top:.9rem; */
+}
+
+.sub-text {
+    color: #7A7A7A;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 14rem;
+}
+
+.sub-tp {
+    color: white;
+}
+
+.first-reframe {
+    font-size: 2.1rem;
+    max-width: 34rem;
+    margin-top: .5rem;
+    color: white;
+}
+
+.hmw {
+    font-family: plan_light;
+    font-size: 2rem;
+    max-width: 70%;
+    line-height: 2.4rem;
+    color: white;
+}
+
+.solu-context {
+    color: white;
+    margin-top: 5rem;
+}
+
+
+.grey-solu-box {
+    background-color: #D9D9D9;
+    width: 80%;
+    height: 190rem;
+    margin-top: -19rem;
+    margin-left: 9rem;
+}
+
+.solu-dormify {
+    color: #7A7A7A;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 23rem;
+}
+
+.solu-title {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+.reflection-paragraph-dormify {
+    font-family: montreal;
+    line-height: 1.37rem;
+    font-size: 1rem;
+    color: white;
+}
+
+/* end of code for strictly dormify */
+
+
+
+
+
+
+
+
+
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-top: 8rem;
+    margin-bottom: -2.5rem;
+}
+
+.title2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-top: 11rem;
+    margin-bottom: -2.5rem;
+}
+
+.template-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    max-width: 100%;
+    font-size: 2rem;
+    margin-top: 6rem;
+
+}
+
+.my-description {
+    color: white;
+    margin-top: 3.5rem;
+    max-width: 30%;
+    line-height: 1.1rem;
+}
+
+.paragraph-body,
+.paragraph-body2 {
+    max-width: 95%;
+    color: white;
+    line-height: 3.8rem;
+}
+
+.me {
+    margin-top: 3.5rem;
+}
+
+
+.email_btn,
+.resume_btn {
+    display: inline-block;
+    border-radius: 12px;
+    border: .9px solid white;
+    height: 3em;
+    width: 9em;
+    background-color: transparent;
+    color: white;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+.email_btn:hover,
+.resume_btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.email,
+.resume {
+    color: white;
+}
+
+.dormify-img {
+    display: flex;
+    width: 34rem;
+    height: 25.875rem;
+}
+
+.tp-img {
+    display: flex;
+    width: 48rem;
+    height: auto;
+}
+
+
+.plantin {
+    color: white;
+}
+
+
+
+.projects {
+    margin-top: 4rem;
+}
+
+.project-tp {
+    margin-top: 3rem;
+}
+
+
+.img-solu3 {
+    width: 120%;
+    height: auto;
+    margin-left: -3rem;
+    margin-top: 8rem;
+
+}
+
+.img-solu4 {
+    width: 120%;
+    height: auto;
+    margin-left: -20rem;
+    margin-top: 8rem;
+}
+
+.img-solu5 {
+    width: 120%;
+    height: auto;
+    margin-left: -10rem;
+    margin-top: 8.5rem;
+}
+
+.img-solu6 {
+    width: 120%;
+    height: auto;
+    margin-left: -10rem;
+    margin-top: 25rem;
+}
+
+
+
+
+.dormify-curated {
+    font-size: 2.1rem;
+    color: white;
+    margin-top: -1rem;
+}
+
+
+
+.supporting-text {
+    color: white;
+    font-size: 1rem;
+    font-family: montreal;
+    margin-top: 14rem;
+    max-width: 60%;
+    margin-left: 17rem;
+    margin-top: 2rem;
+}
+
+
+.tp-heading,
+.dormify-heading {
+    color: white;
+}
+
+.project-dormify {
+    margin-top: 3rem;
+}
+
+
+.content {
+    color: white;
+    margin-top: -27rem;
+    max-width: 39rem;
+    line-height: 1.5rem;
+}
+
+.insight {
+    margin-top: 20rem;
+}
+
+.content1 {
+    color: white;
+    margin-top: -15rem;
+    max-width: 39rem;
+    line-height: 1.5rem;
+}
+
+
+
+.framing {
+    margin-top: -5rem;
+}
+
+
+
+.content-heading2 {
+    font-size: 2.1rem;
+    max-width: 34rem;
+    margin-top: -.9rem;
+    color: black;
+}
+
+.t1 {
+    width: 46%;
+    height: auto;
+    margin-left: 0rem;
+    margin-top: -6rem;
+
+}
+
+.t2 {
+    width: 46%;
+    height: auto;
+    margin-left: 0rem;
+    margin-top: -6rem;
+}
+
+.t3 {
+    width: 46%;
+    height: auto;
+    margin-left: 0rem;
+    margin-top: -6.5rem;
+}
+
+.t4 {
+    width: 46%;
+    height: auto;
+    margin-left: 0rem;
+    margin-top: -23rem;
+}
+
+
+.img-solu1 {
+    width: 70%;
+    height: auto;
+    margin-left: 10rem;
+    margin-top: 22rem;
+
+}
+
+.img-solu2 {
+    width: 89%;
+    height: auto;
+    margin-left: 6rem;
+    margin-top: 22rem;
+
+}
+
+.img-solu3 {
+    width: 60%;
+    height: auto;
+    margin-left: 17rem;
+    margin-top: 8rem;
+
+}
+
+.img-solu4 {
+    width: 60%;
+    height: auto;
+    margin-left: 17rem;
+    margin-top: 8rem;
+}
+
+.img-solu5 {
+    width: 60%;
+    height: auto;
+    margin-left: 17rem;
+    margin-top: 8.5rem;
+}
+
+.img-solu6 {
+    width: 60%;
+    height: auto;
+    margin-left: 17rem;
+    margin-top: 25rem;
+}
+
+
+
+.code-text {
+    color: white;
+    max-width: 10%;
+    margin-top: 5rem;
+}
